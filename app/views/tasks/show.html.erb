@@ -1,0 +1,6 @@
+<h1>La vue de <%= @task.name %></h1>
+
+<p>Votre tâche est la suivante : <%= @task.description %></p>
+<%= link_to 'Editer ma tâche', edit_task_path(@task) %>
+
+<%= link_to 'Retour a la liste', tasks_path %>
